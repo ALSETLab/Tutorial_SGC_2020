@@ -38,4 +38,5 @@ from sklearn.model_selection import train_test_split
 import os
 
 # Importing function to plot predictions and ground truth
-from prediction_plotting import*
+from .prediction_plotting import *
+from .create_ground_truth import *
